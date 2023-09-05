@@ -3,7 +3,7 @@ import './style.css';
 
 export const Project = () => {
   return (
-    <section>
+    <section className="project">
       <h2>Můj vysněný projekt</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolores

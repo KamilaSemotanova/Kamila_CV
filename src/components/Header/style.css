@@ -1,3 +1,20 @@
-.header__letter {
-  text-transform: uppercase;
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
+
+.header__title {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.header__path {
+  fill: none;
+}
+
